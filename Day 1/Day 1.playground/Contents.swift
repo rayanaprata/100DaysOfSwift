@@ -63,30 +63,25 @@ let taylorRocks: Bool = true
 // simple types: summary
 
 // 1. You make variables using var and constants using let. It’s preferable to use constants as often as possible.
-
 var canChange = "you can change the value of this var"
 let cantChange = "you cant change the value of this let (constant)"
 
 // 2. Strings start and end with double quotes, but if you want them to run across multiple lines you should use three sets of double quotes.
-
 let multipleLines = """
 multiple
 lines :)
 """
 
 // 3. Integers hold whole numbers, doubles hold fractional numbers, and booleans hold true or false.
-
 let number = 5
 let fractionalNumber = 2.5
 let flag = false
 
 // 4. String interpolation allows you to create strings from other variables and constants, placing their values inside your string.
-
 let fruit = "banana"
 let favoriteFruit = "My favorite fruit is \(fruit)"
 
 // 5. Swift uses type inference to assign each variable or constant a type, but you can provide explicit types if you want.
-
 let color: String = "black"
 let quantity: Int = 3
 let width: Double = 20.5
