@@ -1,8 +1,10 @@
 # 100DaysOfSwift 📱
 
  Repository to store the projects made during the 100 Days of Swift challenge by Paul Hudson of Hacking with Swift.
+  
+ ## Days 1-12: Introduction to Swift
  
- ---
+The first 12 days provide a gentle warm up for your Swift learning. You’ll watch about a selection of one-minute videos every day, and complete short quizzes about each of those videos.
  
  #### [Day 1 - variables, simple data types, and string interpolation](https://www.hackingwithswift.com/100/1) ✨
  
