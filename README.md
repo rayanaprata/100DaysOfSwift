@@ -6,11 +6,11 @@
  
  ### Day 1
  
-- [ ] Variables
-- [ ] Strings and integers
-- [ ] Multi-line strings
-- [ ] Doubles and Booleans
-- [ ] String interpolation
-- [ ] Constants
-- [ ] Type annotations
-- [ ] Simple types: Summary
+- [x] Variables
+- [x] Strings and integers
+- [x] Multi-line strings
+- [x] Doubles and Booleans
+- [x] String interpolation
+- [x] Constants
+- [x] Type annotations
+- [x] Simple types: Summary
