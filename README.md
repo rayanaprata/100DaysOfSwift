@@ -4,7 +4,7 @@
  
  ---
  
- ### Day 1
+ #### Day 1 - variables, simple data types, and string interpolation ✨
  
 - [x] Variables
 - [x] Strings and integers
