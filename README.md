@@ -19,7 +19,7 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 ### [Day 2 – arrays, dictionaries, sets, and enums](https://www.hackingwithswift.com/100/2) ✨
 
-- [ ] Arrays
+- [x] Arrays
 - [ ] Sets
 - [ ] Tuples
 - [ ] Arrays vs Sets vs Tuples
