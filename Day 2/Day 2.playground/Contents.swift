@@ -102,3 +102,51 @@ welcome.remove(at:welcome.index(before: welcome.endIndex))
  */
 
 let colors = Set(["red", "green", "blue"]) //its unordered
+
+
+
+
+// tuples
+
+// Tuples allow you to store several values together in a single value. That might sound like arrays, but tuples are different:
+
+// 1 You can’t add or remove items from a tuple; they are fixed in size.
+
+// 2 You can’t change the type of items in a tuple; they always have the same types they were created with.
+
+// 3 You can access items in a tuple using numerical positions or by naming them, but Swift won’t let you read numbers or names that don’t exist.
+
+//Tuples are created by placing multiple items into parentheses, like this:
+var name = (first: "Taylor", last: "Swift")
+
+// You then access items using numerical positions starting from 0:
+name.0
+
+// Or you can access items using their names:
+name.first
+
+name.first = "Zeca"
+name.last = "Pagodinho"
+
+// Remember, you can change the values inside a tuple after you create it, but not the types of values. So, if you tried to change name to be (first: "Justin", age: 25) you would get an error.
+
+
+
+
+// arrays vs sets vs tuples
+
+// if you need a specific, fixed collection of related values where each item has a precise position or name, you should use a tuple:
+
+let address = (street: "Maria Muller Gieseler", number: "111", city: "Blumenau")
+
+// if you need a collection of values that must be unique or you need to be able to check wheter a specific items is in there extremely quickly, you should use a set:
+
+let giftsIWant = Set(["Atomic Habits", "Clean Code"])
+
+// if you need a collection of values that can contain duplicates, or the order of your items matters, you should use an array:
+
+let drinks = ["Water", "Beer", "Coffee"]
+
+// Arrays are by far the most common of the three types.
+
+
