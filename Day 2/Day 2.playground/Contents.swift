@@ -192,3 +192,44 @@ favoriteIceCream["Charlotte", default: "Unknown"]
 
 
 
+
+
+// creating empty collections
+
+
+// dictionary
+
+// empty dictionary with strings for keys and values
+var teams = [String: String]()
+
+// we can then add entries later on, like this:
+teams["Paul"] = "Team A"
+teams["Rodrigo"] = "Team B"
+
+//print(teams)  ->   ["Paul": "Team A", "Rodrigo": "Team B"]
+
+
+// array
+var results = [Int]()
+
+results.append(5)
+
+// print(results) ->  [5]
+
+
+// set
+
+// the exception is creating an empty set, which is done differently:
+var words = Set<String>()
+var numers = Set<Int>()
+
+words.insert("test")
+words.insert("new test")
+// print(words)  ->  ["new test", "test"]
+
+
+
+
+// If you wanted, you could create arrays and dictionaries with similar syntax:
+var scores = Dictionary<String, Int>()
+var arrayOfNumbers = Array<Int>()
