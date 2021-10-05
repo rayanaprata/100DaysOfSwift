@@ -1,4 +1,5 @@
 import UIKit
+import Foundation
 
 // arrays
 
@@ -305,3 +306,54 @@ enum Colors: Int {
 }
 
 // now swift will assign 1 to blue and count upwards from there, meaning that red is now the third color, not second
+
+
+
+
+
+// summary
+
+// 1 Arrays, sets, tuples, and dictionaries let you store a group of items under a single value. They each do this in different ways, so which you use depends on the behavior you want.
+
+
+// 2 Arrays store items in the order you add them, and you access them using numerical positions.
+
+let john = "John Lennon"
+let paul = "Paul McCartney"
+let george = "George Harrison"
+let ringo = "Ringo Starr"
+
+let beatles = [john, paul, george, ringo]
+
+
+// 3 Sets store items without any order, so you can’t access them using numerical positions.
+
+let setColors = Set(["red", "green", "blue"])
+
+
+// 4 Tuples are fixed in size, and you can attach names to each of their items. You can read items using numerical positions or using your names.
+
+var tupleName = (first: "Josh", last: "Dun")
+
+
+// 5 Dictionaries store items according to a key, and you can read items using those keys.
+
+let dictHeights = [
+    "Rayana": 1.70,
+    "Jhonnatan": 1.75
+]
+
+
+// 6 Enums are a way of grouping related values so you can use them without spelling mistakes.
+
+enum Turno: Int {
+    case manha = 1
+    case tarde
+    case noite
+}
+
+
+// 7 You can attach raw values to enums so they can be created from integers or strings, or you can add associated values to store additional information about each case.
+
+let jose = Turno(rawValue: 3)
+let singin = Activity.singing(volume: 10)
