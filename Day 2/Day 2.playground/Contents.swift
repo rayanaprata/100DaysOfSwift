@@ -150,3 +150,45 @@ let drinks = ["Water", "Beer", "Coffee"]
 // Arrays are by far the most common of the three types.
 
 
+
+
+// dictionaries
+
+// The most common way of storing dictionary data is using strings. For example, we could create a dictionary that stores the height of singers using their name:
+
+let heights = [
+    "Taylor Swift": 1.78,
+    "Ed Sheeran": 1.73
+]
+
+// you can use the key to read the value of the dictionary
+heights["Taylor Swift"]
+
+// Note: When using type annotations, dictionaries are written in brackets with a colon between your identifier and value types. For example, [String: Double] and [String: String].
+
+
+
+// dictionary default values
+
+// If you try to read a value from a dictionary using a key that doesn’t exist, Swift will send you back nil – nothing at all.
+// While this might be what you want, there’s an alternative: we can provide the dictionary with a default value to use if we request a missing key.
+
+// To demonstrate this, let’s create a dictionary of favorite ice creams for two people:
+
+let favoriteIceCream = [
+    "Rayana": "Chocolate",
+    "Jhonnatan": "Vanilla"
+]
+
+// we can read Rayana`s favorite ice cream like this:
+favoriteIceCream["Rayana"]
+
+// but if we tried reading the favorite ice cream for Charlotte, we’d get back nil, meaning that Swift doesn’t have a value for that key:
+favoriteIceCream["Charlotte"]
+
+// we can fix this by giving the dictionary a default value of “Unknown”, so that when no ice cream is found for Charlotte we get back “Unknown” rather than nil:
+
+favoriteIceCream["Charlotte", default: "Unknown"]
+
+
+
