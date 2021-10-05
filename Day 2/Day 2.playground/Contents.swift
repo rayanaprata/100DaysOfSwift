@@ -277,3 +277,31 @@ enum Activity {
 }
 
 let talking = Activity.talking(topic: "footbal")
+
+
+
+// enum raw values
+
+enum Planet: Int {
+    case mercury
+    case venus
+    case earth
+    case mars
+}
+
+// swift will automatically assign each of those a number starting from 0
+
+// you can use that number to create an instance of the appropriate enum case
+let earth = Planet(rawValue: 2)
+
+
+// if you want, you can assign one or more cases a specific value, and Swift will generate the rest
+
+enum Colors: Int {
+    case blue = 1
+    case yellow    //2
+    case red       //3
+    case green     //4
+}
+
+// now swift will assign 1 to blue and count upwards from there, meaning that red is now the third color, not second
