@@ -233,3 +233,47 @@ words.insert("new test")
 // If you wanted, you could create arrays and dictionaries with similar syntax:
 var scores = Dictionary<String, Int>()
 var arrayOfNumbers = Array<Int>()
+
+
+
+
+// enumerations
+
+// usually called just ENUMS are a way to defining groups of related values in a way that makes them easier to use
+
+// if you wanted to write some code to represent the success or failure of some work you were doing, you could represent that as strings:
+
+let result = "failure"
+
+// But what happens if someone accidentally uses different naming?
+
+let result2 = "failed"
+let result3 = "fail"
+
+// All those three are different strings, so they mean different things.
+
+// With enums we can define a Result type that can be either success or failure, like this:
+
+enum Result {
+    case success
+    case failure
+}
+
+// And now when we use it we must choose one of those two values:
+let result4 = Result.failure // failure
+let result5 = Result.success // success
+
+//This stops you from accidentally using different strings each time.
+
+
+
+// enum associated values
+
+enum Activity {
+    case bored
+    case running(destination: String)
+    case talking(topic: String)
+    case singing(volume: Int)
+}
+
+let talking = Activity.talking(topic: "footbal")
