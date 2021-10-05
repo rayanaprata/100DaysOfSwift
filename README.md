@@ -20,16 +20,16 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 ### [Day 2 – arrays, dictionaries, sets, and enums](https://www.hackingwithswift.com/100/2) ✨
 
 - [x] Arrays
-- [ ] Sets
-- [ ] Tuples
-- [ ] Arrays vs Sets vs Tuples
-- [ ] Dictionaries
-- [ ] Dictionary default values
-- [ ] Creating empty collections
-- [ ] Enumerations
-- [ ] Enum associated values
-- [ ] Enum raw values
-- [ ] Complex types: Summary
+- [x] Sets
+- [x] Tuples
+- [x] Arrays vs Sets vs Tuples
+- [x] Dictionaries
+- [x] Dictionary default values
+- [x] Creating empty collections
+- [x] Enumerations
+- [x] Enum associated values
+- [x] Enum raw values
+- [x] Complex types: Summary
 
 ### [Day 3 – operators and conditions](https://www.hackingwithswift.com/100/3) ✨
 
