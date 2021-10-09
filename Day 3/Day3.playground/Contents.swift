@@ -33,3 +33,17 @@ let secondHalf = ["George", "Ringo"]
 let beatles = firstHalf + secondHalf
 
 // Remember, Swift is a type-safe language, which means it won’t let you mix types. For example, you can’t add an integer to a string because it doesn’t make any sense.
+
+
+
+// compound assignment opertors
+
+// shorthand operators, thath combine one operator with an assignment
+
+// if someone scored 95 in an exam but needs to be penalized 5 points, you could write this:
+var score = 95
+score -= 5
+
+// similarly, you can add one string to another using +=:
+var quote = "The rain in Spain falls mainly on the "
+quote += "Spaniards"
