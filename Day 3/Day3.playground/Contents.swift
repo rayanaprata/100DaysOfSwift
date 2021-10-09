@@ -102,3 +102,16 @@ if age1 > 18 || age2 > 18 {
     print("At least one is over 18")
 }
 
+
+
+// the ternary operator
+
+print(firstCard == secondCard ? "Cards are the same" : "Cards are different")
+
+// we could write the same code using a regular condition:
+
+//if firstCard == secondCard {
+//    print("Cards are the same")
+//} else {
+//    print("Cards are different")
+//}
