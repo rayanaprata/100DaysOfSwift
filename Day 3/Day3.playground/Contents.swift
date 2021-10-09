@@ -47,3 +47,25 @@ score -= 5
 // similarly, you can add one string to another using +=:
 var quote = "The rain in Spain falls mainly on the "
 quote += "Spaniards"
+
+
+
+// comparison operators
+
+let firstValue = 6
+let secondValue = 4
+
+// equality
+firstValue == secondValue
+firstValue != secondValue
+
+// four operators for comparing whether one value is greater than, less than, or equal to another
+
+firstValue < secondValue
+firstValue >= secondValue
+
+// each of these also work with strings, because strings have a natural alphabetical order:
+
+"Taylor" <= "Swift"
+"Ada" < "Ale"
+"test" == "test"
