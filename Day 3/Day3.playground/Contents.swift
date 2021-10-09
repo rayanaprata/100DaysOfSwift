@@ -115,3 +115,34 @@ print(firstCard == secondCard ? "Cards are the same" : "Cards are different")
 //} else {
 //    print("Cards are different")
 //}
+
+
+
+// switch statements
+
+let weather = "sunny"
+
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+default:
+    print("Enjoy your day!")
+}
+
+// Swift will only run the code inside each case. If you want execution to continue on to the next case, use the fallthrough keyword like this:
+
+switch weather {
+case "rain":
+    print("Bring an umbrella")
+case "snow":
+    print("Wrap up warm")
+case "sunny":
+    print("Wear sunscreen")
+    fallthrough
+default:
+    print("Enjoy your day!")
+}
