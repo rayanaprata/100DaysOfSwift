@@ -34,3 +34,16 @@ while number <= 20 {
 }
 
 print("Ready or not here I come!")
+
+
+
+// repeat loops
+
+// because the condition comes at the end of the repeat loop the code inside the loop will always be executed at least once
+
+repeat {
+    print(number)
+    number += 1
+} while number <= 20
+
+print("Ready or not, here I come!")
