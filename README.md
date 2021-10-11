@@ -33,16 +33,16 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 ### [Day 3 – operators and conditions](https://www.hackingwithswift.com/100/3) ✨
 
-- [ ] Arithmetic Operators
-- [ ] Operator overloading
-- [ ] Compund assignment operators
-- [ ] Comparison operators
-- [ ] Conditions
-- [ ] Combining conditions
-- [ ] The ternary operator
-- [ ] Switch statements
-- [ ] Range operators
-- [ ] Operators and conditions: Summary
+- [x] Arithmetic Operators
+- [x] Operator overloading
+- [x] Compund assignment operators
+- [x] Comparison operators
+- [x] Conditions
+- [x] Combining conditions
+- [x] The ternary operator
+- [x] Switch statements
+- [x] Range operators
+- [x] Operators and conditions: Summary
 
 ### [Day 4 – loops, loops, and more loops](https://www.hackingwithswift.com/100/4) ✨
 
