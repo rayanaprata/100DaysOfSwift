@@ -108,3 +108,17 @@ outerLoop: for i in 1...10 {
 }
 
 // With a regular break, only the inner loop would be exited – the outer loop would continue where it left off.
+
+
+
+// skipping items
+
+// if you just want to skip the current item and continue on to the next one, you should use continue instead
+
+for i in 1...10 {
+    if i % 2 == 1 {
+        continue
+    }
+
+    print(i)
+}
