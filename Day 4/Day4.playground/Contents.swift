@@ -122,3 +122,18 @@ for i in 1...10 {
 
     print(i)
 }
+
+
+
+// infinite loops
+
+var counter = 0
+
+while true {
+    print(" ")
+    counter += 1
+
+    if counter == 273 {
+        break
+    }
+}
