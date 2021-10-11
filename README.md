@@ -46,14 +46,14 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 ### [Day 4 – loops, loops, and more loops](https://www.hackingwithswift.com/100/4) ✨
 
-- [ ] For loops
-- [ ] While loops
-- [ ] Repeat loops
-- [ ] Exiting loops
-- [ ] Exiting multiple loops
-- [ ] Skipping items
-- [ ] Infinite loops
-- [ ] Looping: Summary
+- [x] For loops
+- [x] While loops
+- [x] Repeat loops
+- [x] Exiting loops
+- [x] Exiting multiple loops
+- [x] Skipping items
+- [x] Infinite loops
+- [x] Looping: Summary
 
 ### [Day 5 – functions, parameters, and errors](https://www.hackingwithswift.com/100/5) ✨
 
