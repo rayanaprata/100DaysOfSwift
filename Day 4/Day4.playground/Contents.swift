@@ -137,3 +137,77 @@ while true {
         break
     }
 }
+
+
+
+// looping summary
+
+// 1. Loops let us repeat code until a condition is false.
+
+
+
+// 2. The most common loop is for, which assigns each item inside the loop to a temporary constant.
+
+//for number in count {
+//    print("Number is \(number)")
+//}
+
+
+
+// 3. If you don’t need the temporary constant that for loops give you, use an underscore instead so Swift can skip that work.
+
+//for _ in count {
+//    print("Number is \(number)")
+//}
+
+
+
+// 4. There are while loops, which you provide with an explicit condition to check.
+
+//while number <= 20 {
+//    print(number)
+//    number += 1
+//}
+
+
+
+// 5. Although they are similar to while loops, repeat loops always run the body of their loop at least once.
+
+//repeat {
+//    print(number)
+//    number += 1
+//} while number <= 20
+
+ 
+
+// 6. You can exit a single loop using break, but if you have nested loops you need to use break followed by whatever label you placed before your outer loop.
+
+//if countDown == 4 {
+//    print("I'm bored. Let's go now!")
+//    break
+//}
+
+
+
+// 7. You can skip items in a loop using continue.
+
+//for i in 1...10 {
+//    if i % 2 == 1 {
+//        continue
+//    }
+//
+//    print(i)
+//}
+
+
+
+// 8. Infinite loops don’t end until you ask them to, and are made using while true. Make sure you have a condition somewhere to end your infinite loops!
+
+//while true {
+//    print(" ")
+//    counter += 1
+//
+//    if counter == 273 {
+//        break
+//    }
+//}
