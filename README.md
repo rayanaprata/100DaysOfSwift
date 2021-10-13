@@ -57,17 +57,17 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 ### [Day 5 – functions, parameters, and errors](https://www.hackingwithswift.com/100/5) ✨
 
-- [ ] Writing functions
-- [ ] Accepting parameters
-- [ ] Returning values
-- [ ] Parameter labels
-- [ ] Omitting parameter labels
-- [ ] Default parameters
-- [ ] Varidic functions
-- [ ] Writing throwing functions
-- [ ] Running throwing functions
-- [ ] inout parameters
-- [ ] Functions: Summary
+- [x] Writing functions
+- [x] Accepting parameters
+- [x] Returning values
+- [x] Parameter labels
+- [x] Omitting parameter labels
+- [x] Default parameters
+- [x] Varidic functions
+- [x] Writing throwing functions
+- [x] Running throwing functions
+- [x] inout parameters
+- [x] Functions: Summary
 
 ### [Day 6 – closures part one](https://www.hackingwithswift.com/100/6) ✨
 
