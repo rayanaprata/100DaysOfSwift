@@ -32,3 +32,19 @@ let drivingWithParameters = { (place: String) in
 drivingWithParameters("London")
 
 
+
+// returning values from a closure
+
+// closures can also return values, and they are written similarly to parameters: you write them inside your closure, directly before the in keyword
+
+// we want a closure that returns a string rather than printing the message directly, so we need to use -> String before in, then use return just like a normal function:
+
+let drivingWithReturn = { (place: String) -> String in
+    return "I'm going to \(place) in my car"
+}
+
+let message = drivingWithReturn("United State")
+print(message)
+
+
+
