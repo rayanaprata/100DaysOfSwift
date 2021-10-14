@@ -71,11 +71,11 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 ### [Day 6 – closures part one](https://www.hackingwithswift.com/100/6) ✨
 
-- [ ] Creating basic closures
-- [ ] Accepting parameters in a closure
-- [ ] Returning values from a closure
-- [ ] Closures as parameters
-- [ ] Trailing closure syntax
+- [x] Creating basic closures
+- [x] Accepting parameters in a closure
+- [x] Returning values from a closure
+- [x] Closures as parameters
+- [x] Trailing closure syntax
 
 ### [Day 7 – closures part two](https://www.hackingwithswift.com/100/7) ✨
 
