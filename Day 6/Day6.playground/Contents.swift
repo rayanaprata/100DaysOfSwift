@@ -63,3 +63,25 @@ func travel(action: () -> Void) {
 }
 
 travel(action: driving)
+
+
+
+// trailing closure syntax
+
+// If the last parameter to a function is a closure, Swift lets you use special syntax called trailing closure syntax.
+
+// Because its last parameter is a closure, we can call travel() using trailing closure syntax like this:
+//travel() {
+//    print("I'm driving in my car, it's a nice trip.")
+//}
+
+// In fact, because there aren’t any other parameters, we can eliminate the parentheses entirely:
+
+travel {
+    print("I'm driving in my car")
+}
+
+// Trailing closure syntax is extremely common in Swift, so it’s worth getting used to.
+
+
+
