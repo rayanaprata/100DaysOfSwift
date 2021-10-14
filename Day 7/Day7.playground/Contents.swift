@@ -22,8 +22,7 @@ travel { (place: String) in
 
 // We’ve been using () -> Void to mean “accepts no parameters and returns nothing”
 
-// To demonstrate this, we can write a travel() function that accepts a closure as its only parameter, and that closure in turn accepts a string and returns a string:
-
+// To demonstrate this, we can write a eat() function that accepts a closure as its only parameter, and that closure in turn accepts a string and returns a string:
 func eat(food: (String) -> String) {
     print("I'm getting ready to eat.")
     let description = food("Bread")
@@ -31,8 +30,39 @@ func eat(food: (String) -> String) {
     print("I ate!")
 }
 
-// we call travel() using trailing closure syntax, our closure code is required to accept a string and return a string:
-
-eat { (kindOfFood: String) -> String in
-    return "I'm eating \(kindOfFood) in my house"
+// we call eat() using trailing closure syntax, our closure code is required to accept a string and return a string:
+eat { (food: String) -> String in
+    return "I'm eating \(food) in my house"
 }
+
+
+
+// shorthand parameter names
+
+// Normaly we call eat() using something like this:
+eat { (food: String) -> String in
+    return "I'm eating \(food) in my house"
+}
+
+// However, Swift knows the parameter to that closure must be a string, so we can remove it:
+eat { food -> String in   // remove parameter type
+    return "I'm eating \(food) in my house"
+}
+
+// It also knows the closure must return a string, so we can remove that:
+eat { food in   // remove return type
+    return "I'm eating \(food) in my house"
+}
+
+// As the closure only has one line of code that must be the one that returns the value, so Swift lets us remove the return keyword too:
+eat { food in
+    "I'm eating \(food) in my house"   // remove return keyword
+}
+
+// Swift has a shorthand syntax that lets you go even shorter. Rather than writing place in we can let Swift provide automatic names for the closure’s parameters. These are named with a dollar sign, then a number counting from 0.
+eat { // remove parameter
+    "I'm eating \($0) in my house"   // replace parameter with $0
+}
+
+
+
