@@ -42,3 +42,30 @@ let chessBoxing = Sport(name: "Chessboxing", isOlympicSport: false)
 print(chessBoxing.olympicStatus)
 
 
+
+// property observers
+
+// let you run code before or after any property changes
+
+struct Progress {
+    var task: String
+    var amount: Int {
+        
+        // action before change
+        willSet {
+            print("Will be change")
+        }
+        
+        // action after change
+        didSet {
+            print("\(task) is now \(amount)% complete")
+        }
+    }
+}
+
+var progress = Progress(task: "Loading data", amount: 0)
+progress.amount = 20
+progress.amount = 80
+progress.amount = 100
+
+
