@@ -20,3 +20,25 @@ struct Cat {
 var firstCat = Cat(name: "Missi", dayOfBirth: 3, color: .black)
 
 firstCat.name = "Kitty"
+
+
+
+// computed properties
+
+struct Sport {
+    var name: String
+    var isOlympicSport: Bool
+    
+    var olympicStatus: String {
+        if isOlympicSport {
+            return "\(name) is an Olympic Sport"
+        } else {
+            return "\(name) is not an Olympic Sport"
+        }
+    }
+}
+
+let chessBoxing = Sport(name: "Chessboxing", isOlympicSport: false)
+print(chessBoxing.olympicStatus)
+
+
