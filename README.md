@@ -81,16 +81,16 @@ The first 12 days provide a gentle warm up for your Swift learning. You’ll wat
 
 The least you need to know
 
-- [ ] Using closures as parameters when they accept parameters
-- [ ] Using closures as parameters when they return values
-- [ ] Shorthand parameter names
+- [x] Using closures as parameters when they accept parameters
+- [x] Using closures as parameters when they return values
+- [x] Shorthand parameter names
 
 Advanced closures
 
-- [ ] Closures with multiple parameters
-- [ ] Returning closures from functions
-- [ ] Capturing values
-- [ ] Closures: Summary
+- [x] Closures with multiple parameters
+- [x] Returning closures from functions
+- [x] Capturing values
+- [x] Closures: Summary
 
 ### [Day 8 – structs, properties, and methods](https://www.hackingwithswift.com/100/8) ✨
 
