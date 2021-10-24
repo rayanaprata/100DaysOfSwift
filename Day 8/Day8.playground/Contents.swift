@@ -82,3 +82,22 @@ struct City {
 
 let london = City(population: 9_000_000)
 london.collectTaxes()
+
+
+
+// mutating methods
+
+// When you want to change a property inside a method, you need to mark it using the mutating keyword, like this:
+
+struct Person {
+    var name: String
+    
+    mutating func makeAnonymous() {
+        name = "Anonymous"
+    }
+}
+
+var person = Person(name: "Ed")
+person.makeAnonymous()
+
+
