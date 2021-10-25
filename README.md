@@ -94,13 +94,13 @@ Advanced closures
 
 ### [Day 8 – structs, properties, and methods](https://www.hackingwithswift.com/100/8) ✨
 
-- [ ] Creating your own structs
-- [ ] Computed properties
-- [ ] Property observers
-- [ ] Methods
-- [ ] Mutating methods
-- [ ] Properties and mathods of strings
-- [ ] Properties and methods of arrays
+- [x] Creating your own structs
+- [x] Computed properties
+- [x] Property observers
+- [x] Methods
+- [x] Mutating methods
+- [x] Properties and mathods of strings
+- [x] Properties and methods of arrays
 
 ### [Day 9 – access control, static properties, and laziness](https://www.hackingwithswift.com/100/9) ✨
 
