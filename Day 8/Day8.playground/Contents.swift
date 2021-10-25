@@ -101,3 +101,19 @@ var person = Person(name: "Ed")
 person.makeAnonymous()
 
 
+
+// properties and methods of strings
+
+let testString = "Do or do not, there is no try."
+
+// read the number of characters in a string
+print(testString.count) //30
+
+// they have a hasPrefix() method that returns true if the string starts with specific letters:
+print(testString.hasPrefix("Do")) //true
+
+// you can uppercase a string by calling its uppercased() method
+print(testString.uppercased())
+
+// and you can even have swift sort the letters of the string into an array
+print(testString.sorted())
