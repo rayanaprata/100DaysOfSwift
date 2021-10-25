@@ -117,3 +117,28 @@ print(testString.uppercased())
 
 // and you can even have swift sort the letters of the string into an array
 print(testString.sorted())
+
+
+
+// properties and mathods of array
+
+var toys = ["Woody"]
+var testNumbersArray = [4, 6, 1, 9, 10, 3, 20, 7, 50, 8, 70, 5, 48, 2, 3]
+
+// you can read the number of items in an array using its count property
+print(toys.count)
+
+// if you wanted add a new item, use the apped() method
+toys.append("Buzz")
+
+// you can locate any item inside an array using its firstIndex() method
+toys.firstIndex(of: "Buzz") // that will return 1, because arrays count from 0
+
+// you can have swift sort the items of the array alphabetically
+print(toys.sorted())
+print(testNumbersArray.sorted())
+
+// if you want to remove an item, use the remove() method
+toys.remove(at: 0)
+
+
