@@ -77,3 +77,42 @@ var ed = PersonWithLazyVar(name: "Ed")
 // So, if you want to see the “Creating family tree!” message, you need to access the property at least once:
 
 ed.familyTree
+
+
+
+// static properties and methods
+
+// All the properties and methods we’ve created so far have belonged to individual instances of structs, which means that if we had a Student struct we could create several student instances each with their own properties and methods:
+
+struct Student {
+    var name: String
+
+    init(name: String) {
+        self.name = name
+    }
+}
+
+let eddy = Student(name: "Eddy")
+let taylor = Student(name: "Taylor")
+
+// You can also ask Swift to share specific properties and methods across all instances of the struct by declaring them as static.
+
+// To try this out, we’re going to add a static property to the Student struct to store how many students are in the class. Each time we create a new student, we’ll add one to it:
+
+struct Student2 {
+    static var classSize = 0
+    var name: String
+
+    init(name: String) {
+        self.name = name
+        Student2.classSize += 1
+    }
+}
+
+let ray = Student2(name: "Ray")
+let bob = Student2(name: "bob")
+let ale = Student2(name: "Ale")
+
+// Because the classSize property belongs to the struct itself rather than instances of the struct, we need to read it using Student.classSize:
+
+print(Student2.classSize)
