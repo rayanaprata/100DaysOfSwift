@@ -104,12 +104,12 @@ Advanced closures
 
 ### [Day 9 – access control, static properties, and laziness](https://www.hackingwithswift.com/100/9) ✨
 
-- [ ] Initializers
-- [ ] Referring to the current instance
-- [ ] Lazy properties
-- [ ] Static properties and methods
-- [ ] Access controle
-- [ ] Structs: Summary
+- [x] Initializers
+- [x] Referring to the current instance
+- [x] Lazy properties
+- [x] Static properties and methods
+- [x] Access controle
+- [x] Structs: Summary
 
 ### [Day 10 – classes and inheritance](https://www.hackingwithswift.com/100/10) ✨
 
