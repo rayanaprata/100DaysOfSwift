@@ -84,3 +84,37 @@ final class DogFinal {
         self.breed = breed
     }
 }
+
+
+
+// copying objects
+
+// The third difference between classes and structs is how they are copied. When you copy a struct, both the original and the copy are different things – changing one won’t change the other. When you copy a class, both the original and the copy point to the same thing, so changing one does change the other.
+
+class Singer {
+    var name = "Taylor Swift"
+}
+
+var singer = Singer()
+print(singer.name)
+
+var singerCopy = singer
+singerCopy.name = "Justin Bieber"
+
+// Because of the way classes work, both singer and singerCopy point to the same object in memory, so when we print the singer name again we’ll see “Justin Bieber”:
+
+print(singer.name)
+print(singerCopy.name)
+
+struct SingerStruct {
+    var name = "Taylor"
+}
+
+var singerStruct = SingerStruct()
+print(singerStruct.name)
+
+var singerStructCopy = singerStruct
+singerStructCopy.name = "Justin"
+
+print(singerStruct.name)
+print(singerStructCopy.name)
