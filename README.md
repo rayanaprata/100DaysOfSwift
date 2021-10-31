@@ -113,9 +113,9 @@ Advanced closures
 
 ### [Day 10 – classes and inheritance](https://www.hackingwithswift.com/100/10) ✨
 
- - [ ] Creating your own classes
- - [ ] Class inheritance
- - [ ] Overriding methods
+ - [x] Creating your own classes
+ - [x] Class inheritance
+ - [x] Overriding methods
  - [ ] Final classes
  - [ ] Copying objects
  - [ ] Deinitializers
