@@ -66,3 +66,21 @@ let pop = PoodleOverriding()
 pop.makeNoise()
 
 //With that change, poppy.makeNoise() will print “Yip!” rather than “Woof!”.
+
+
+
+// final classes
+
+// Swift gives us a final keyword just for this purpose: when you declare a class as being final, no other class can inherit from it. This means they can’t override your methods in order to change your behavior – they need to use your class the way it was written.
+
+// To make a class final just put the final keyword before it, like this:
+
+final class DogFinal {
+    var name: String
+    var breed: String
+
+    init(name: String, breed: String) {
+        self.name = name
+        self.breed = breed
+    }
+}
