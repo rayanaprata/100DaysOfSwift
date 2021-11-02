@@ -116,11 +116,11 @@ Advanced closures
  - [x] Creating your own classes
  - [x] Class inheritance
  - [x] Overriding methods
- - [ ] Final classes
- - [ ] Copying objects
- - [ ] Deinitializers
- - [ ] Mutability
- - [ ] Classes: Summary
+ - [x] Final classes
+ - [x] Copying objects
+ - [x] Deinitializers
+ - [x] Mutability
+ - [x] Classes: Summary
 
 ### [Day 11 – protocols, extensions, and protocol extensions](https://www.hackingwithswift.com/100/11) ✨
 
