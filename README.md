@@ -124,9 +124,9 @@ Advanced closures
 
 ### [Day 11 – protocols, extensions, and protocol extensions](https://www.hackingwithswift.com/100/11) ✨
 
-- [ ] Protocols
-- [ ] Protocol inheritance
-- [ ] Extensions
+- [x] Protocols
+- [x] Protocol inheritance
+- [x] Extensions
 - [ ] Protocol extensions
 - [ ] Protocol-oriented programming
 - [ ] Protocol and extensions: Summary 
