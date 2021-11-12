@@ -76,3 +76,25 @@ extension Collection {
 
 pythons.summarize()
 beatles.summarize()
+
+
+
+// protocol-oriented programming
+
+protocol Identif {
+    var id: String { get set }
+    func identify()
+}
+
+extension Identif {
+    func identify() {
+        print("My ID is \(id).")
+    }
+}
+
+struct Userr: Identif {
+    var id: String
+}
+
+let twostraws = Userr(id: "twostraws")
+twostraws.identify()
