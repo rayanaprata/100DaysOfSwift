@@ -127,8 +127,8 @@ Advanced closures
 - [x] Protocols
 - [x] Protocol inheritance
 - [x] Extensions
-- [ ] Protocol extensions
-- [ ] Protocol-oriented programming
+- [x] Protocol extensions
+- [x] Protocol-oriented programming
 - [ ] Protocol and extensions: Summary 
 
 ### [Day 12 – optionals, unwrapping, and typecasting](https://www.hackingwithswift.com/100/12) ✨
