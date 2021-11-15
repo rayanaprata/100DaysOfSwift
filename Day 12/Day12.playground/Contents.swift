@@ -1,5 +1,7 @@
 import UIKit
 
+
+
 // handling missing data
 var age: Int? = nil
 
@@ -92,7 +94,6 @@ print("OK!")
 
 
 // failable initializers
-
 struct Person {
     var id: String
 
@@ -108,3 +109,29 @@ struct Person {
 }
 
 var person = Person(id: "09875432")
+
+
+
+// typecasting
+class Animal { }
+class Fish: Animal { }
+
+class Dog: Animal {
+    func makeNoise() {
+        print("Woof!")
+    }
+}
+
+let pets = [Fish(), Dog(), Fish(), Dog()]
+
+for pet in pets {
+    
+//    If we want to loop over the pets array and ask all the dogs to bark, we need to perform a typecast: Swift will check to see whether each pet is a Dog object, and if it is we can then call makeNoise().
+
+//    This uses a new keyword called as?, which returns an optional: it will be nil if the typecast failed, or a converted type otherwise.
+    
+    if let dog = pet as? Dog {
+        dog.makeNoise()
+    }
+}
+
