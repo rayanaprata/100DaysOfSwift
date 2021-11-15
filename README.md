@@ -129,18 +129,18 @@ Advanced closures
 - [x] Extensions
 - [x] Protocol extensions
 - [x] Protocol-oriented programming
-- [ ] Protocol and extensions: Summary 
+- [x] Protocol and extensions: Summary 
 
 ### [Day 12 – optionals, unwrapping, and typecasting](https://www.hackingwithswift.com/100/12) ✨
 
-- [ ] Handling missing data
-- [ ] Unwrapping optionals
-- [ ] Unwrapping with guard
-- [ ] Force unwrapping
-- [ ] Implicity unwrapped optionals
-- [ ] Nil coalescing
-- [ ] Optional chaining
-- [ ] Optional try
-- [ ] Faiable initializers
-- [ ] Typecasting
-- [ ] Optionals: Summary
+- [x] Handling missing data
+- [x] Unwrapping optionals
+- [x] Unwrapping with guard
+- [x] Force unwrapping
+- [x] Implicity unwrapped optionals
+- [x] Nil coalescing
+- [x] Optional chaining
+- [x] Optional try
+- [x] Faiable initializers
+- [x] Typecasting
+- [x] Optionals: Summary
