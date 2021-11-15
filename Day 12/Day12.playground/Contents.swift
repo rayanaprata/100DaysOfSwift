@@ -26,3 +26,9 @@ func greet(_ name: String?) {
 }
 
 
+
+// force unwrapping
+let str = "5"
+let num = Int(str)!
+
+
