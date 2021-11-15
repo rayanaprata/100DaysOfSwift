@@ -32,3 +32,10 @@ let str = "5"
 let num = Int(str)!
 
 
+
+// implicitly unwrapped optionals
+let agee: Int! = nil
+
+// Because they behave as if they were already unwrapped, you don’t need if let or guard let to use implicitly unwrapped optionals. However, if you try to use them and they have no value – if they are nil – your code crashes.
+
+
