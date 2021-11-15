@@ -58,3 +58,34 @@ let names = ["John", "Paul", "George", "Ringo"]
 
 let beatle = names.first?.uppercased()
 
+
+
+// optional try
+enum PasswordError: Error {
+    case obvious
+}
+
+func checkPassword(_ password: String) throws -> Bool {
+    if password == "password" {
+        throw PasswordError.obvious
+    }
+
+    return true
+}
+
+do {
+    try checkPassword("password")
+    print("That password is good!")
+} catch {
+    print("You can't use that password.")
+}
+
+if let result = try? checkPassword("password") {
+    print("Result was \(result)")
+} else {
+    print("D'oh.")
+}
+
+// which you can use when you know for sure that the function will not fai
+try! checkPassword("sekrit")
+print("OK!")
