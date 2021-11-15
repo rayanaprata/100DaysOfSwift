@@ -89,3 +89,22 @@ if let result = try? checkPassword("password") {
 // which you can use when you know for sure that the function will not fai
 try! checkPassword("sekrit")
 print("OK!")
+
+
+// failable initializers
+
+struct Person {
+    var id: String
+
+    init?(id: String) {
+        if id.count == 9 {
+            self.id = id
+            print("deu bom")
+        } else {
+            print("nao deu bom")
+            return nil
+        }
+    }
+}
+
+var person = Person(id: "09875432")
