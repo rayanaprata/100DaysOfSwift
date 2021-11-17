@@ -7,3 +7,6 @@ var name = "Rayana Prata"
 name = "Taylor Swift"
 
 let birthdayDate = "03/08/2000"
+
+// types of data
+
