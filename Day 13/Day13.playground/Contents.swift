@@ -1,5 +1,6 @@
 import UIKit
 
+
 // swift review, day one
 
 // variables and constants
@@ -7,6 +8,7 @@ var nameVar = "Rayana Prata"
 nameVar = "Taylor Swift"
 
 let birthdayDate = "03/08/2000"
+
 
 
 // types of data
