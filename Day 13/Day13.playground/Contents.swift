@@ -52,3 +52,50 @@ var nothingInBrainWisely = true
 
 
 
+// operators
+
+// basics 
+// + to add, - to subtract, * to multiply, / to divide, = to assign value
+var a = 10
+a = a + 1
+a = a - 1
+a = a * a
+
+var b = 10
+b += 10
+b -= 10
+
+var a = 1.1
+var b = 2.2
+var c = a + b
+
+var name1 = "Tim McGraw"
+var name2 = "Romeo"
+var both = name1 + " and " + name2
+
+// comparsion operators
+var a = 1.1
+var b = 2.2
+var c = a + b
+
+// greater than (>), greater than or equal (>=), and less than (<)
+c > 3
+c >= 3
+c > 4
+c < 4
+
+// check equality
+var name = "Tim McGraw"
+name == "Tim McGraw"
+
+// not operator
+var stayOutTooLate = true
+stayOutTooLate
+!stayOutTooLate
+
+// you can also use ! with = to make != or "not equal". For example:
+var name = "Tim McGraw"
+name == "Tim McGraw"
+name != "Tim McGraw"
+
+
