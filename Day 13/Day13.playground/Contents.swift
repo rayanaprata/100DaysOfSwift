@@ -85,8 +85,8 @@ c > 4
 c < 4
 
 // check equality
-var name = "Tim McGraw"
-name == "Tim McGraw"
+var nameCheck = "Tim McGraw"
+nameCheck == "Tim McGraw"
 
 // not operator
 var stayOutTooLate = true
@@ -94,8 +94,22 @@ stayOutTooLate
 !stayOutTooLate
 
 // you can also use ! with = to make != or "not equal". For example:
-var name = "Tim McGraw"
-name == "Tim McGraw"
-name != "Tim McGraw"
+var checkName = "Tim McGraw"
+checkName == "Tim McGraw"
+checkName != "Tim McGraw"
 
+
+
+// string interpolation
+var nameInterpolation = "Tim McGraw"
+"Your name is \(nameInterpolation)"
+
+var interpolationName = "Tim McGraw"
+"Your name is " + interpolationName
+
+var nameInt = "Tim McGraw"
+var ageInt = 25
+var latitudeInt = 36.166667
+
+"Your name is \(nameInt), your age is \(ageInt), and your latitude is \(latitudeInt)"
 
