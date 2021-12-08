@@ -150,3 +150,16 @@ var both2 = songs9 + songs10
 both2 += ["Everything has Changed"]
 
 
+
+// dictionaries
+var personDictionary = ["first": "Taylor",
+                        "middle": "Alison",
+                        "last": "Swift",
+                        "month": "December",
+                        "website": "taylorswift.com"
+]
+
+personDictionary["middle"]
+personDictionary["month"]
+
+
