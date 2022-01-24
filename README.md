@@ -156,3 +156,20 @@ Advanced closures
 - [x] Conditional statements
 - [x] Loops
 - [x] Switch case
+
+### [Day 14 – Swift Review, day two](https://www.hackingwithswift.com/100/14) ✨
+
+- [ ] Functions
+- [ ] Optionals
+- [ ] Optional chaining
+- [ ] Enumerations
+- [ ] Structs
+- [ ] Classes
+
+### [Day 15 – Swift Review, day three](https://www.hackingwithswift.com/100/15) ✨
+
+- [ ] Properties
+- [ ] Static properties and methods
+- [ ] Access control
+- [ ] Polymorphism and typecasting
+- [ ] Closures
