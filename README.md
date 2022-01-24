@@ -144,3 +144,15 @@ Advanced closures
 - [x] Faiable initializers
 - [x] Typecasting
 - [x] Optionals: Summary
+
+### [Day 13 – Swift Review, day one](https://www.hackingwithswift.com/100/13) ✨
+
+- [x] Variables and constants
+- [x] Types of Data
+- [x] Operators
+- [x] String interpolation
+- [x] Arrays
+- [x] Dictionaries
+- [x] Conditional statements
+- [x] Loops
+- [x] Switch case
